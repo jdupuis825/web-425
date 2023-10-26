@@ -1,2 +1,7 @@
-# web-425
-Repo for assignments in WEB 425
+# WEB 425 Angular with TypeScript
+ 
+## Contributors
+* Jocelyn Dupuis
+* Professor Richard Krasso
+
+
