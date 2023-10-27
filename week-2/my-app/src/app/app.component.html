@@ -1,43 +1,48 @@
+<!--Name: Jocelyn Dupuis-->
+<!--File: app.component.html-->
+<!--Date: 10/26/2023-->
+<!--Description: component html file for myy app - exercise 2.2-->
+
+
+<!--navbar-->
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 
+  <!--unordered list-->
   <ul class="navbar-nav">
 
+    <!--components linked to nav links-->
+    <!--routerLink directive-->
     <li class="nav-item active">
-
       <a class="nav-link" routerLink="/home">Home</a>
-
     </li>
 
     <li class="nav-item">
-
       <a class="nav-link" routerLink="/about">About</a>
-
     </li>
 
     <li class="nav-item">
-
       <a class="nav-link" routerLink="/contact">Contact Us</a>
-
     </li>
-
 
   </ul>
 
-
-
 </nav>
 
+<!--container body-->
 <div class="container">
   <br /> <br />
 
+  <!--h2 with exercise name-->
   <h2>Exercise 2.2 - Navigation</h2>
 
   <div class="row">
 
     <div class="col-sm-12">
 
+      <!--alert message-->
       <div class="alert alert-success" role="alert">
 
+        <!--router-outlet directive-->
         <router-outlet></router-outlet>
 
       </div>
