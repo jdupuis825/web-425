@@ -1,0 +1,13 @@
+/**
+ Name: Jocelyn Dupuis
+ File: signin.component.css
+ Date: 11/01/2023
+ Description: style for signin component
+*/
+
+/**styling for signin container*/
+.signin-container {
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 10%;
+}

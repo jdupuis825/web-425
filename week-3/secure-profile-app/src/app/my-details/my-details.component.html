@@ -1,0 +1,20 @@
+<!--Name: Jocelyn Dupuis-->
+<!--File: my-details.component.html-->
+<!--Date: 10/26/2023-->
+<!--Description: Html component file for details with data binding - exercise 2.3-->
+
+<!--unordered list with list items-->
+<ul class="list-group">
+  <!--replaced hard-coded values with values from myProfile variable-->
+  <li class="list-group-item">Name: {{ myProfile.fullName }}</li>
+  <li class="list-group-item">Favorite Food: {{  myProfile.favoriteFood }}</li>
+  <li class="list-group-item">Favorite color: {{ myProfile.favoriteColor }}</li>
+  <li class="list-group-item">
+      Keywords:
+      <!--iterate over the keywords array and outputs the results-->
+      <span *ngFor="let word of myProfile.keywords">
+          {{ word }}
+      </span>
+  </li>
+</ul>
+
