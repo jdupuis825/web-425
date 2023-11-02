@@ -1,0 +1,37 @@
+<!-- Name: Jocelyn Dupuis-->
+<!-- File: signin.component.html-->
+<!-- Date: 11/01/2023-->
+<!-- Description: Html signin component file for secure profile app - exercise 3.3-->
+
+
+<!--container with sign in user form-->
+<div class="card signin-container">
+
+  <div class="card-body">
+
+    <h3 class="card-title">Sign in</h3>
+
+      <form class="card-text">
+
+        <!--user name input-->
+        <div class="form-group mb-4">
+          <label for="txtUserName">Username</label>
+          <input type="text" class="form-control" id="txtUserName" placeholder="Enter your username" />
+        </div>
+
+        <!--user password input-->
+        <div class="form-group">
+          <label for="txtPassword">Password</label>
+          <input type="password" class="form-control" id="txtPassword" placeholder="Enter your password" />
+        </div>
+
+        <!--submit button-->
+        <div class="form-group">
+          <button class="btn btn-primary float-end mt-lg-3" (click)="signin()">Submit</button>
+        </div>
+
+      </form>
+
+  </div>
+
+</div>

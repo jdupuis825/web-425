@@ -1,0 +1,55 @@
+<!-- Name: Jocelyn Dupuis-->
+<!-- File: home.component.html-->
+<!-- Date: 11/02/2023-->
+<!-- Description: Html component file for enhanced secure profile app - Assignment 3.4-->
+
+
+<!--navbar with list items-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+  <ul class="navbar-nav">
+
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#">Contact</a>
+    </li>
+
+  </ul>
+</nav>
+
+<!--main body container-->
+<div role="main" class="container">
+
+  <br /> <br />
+
+  <!--h2 element with assignment variable-->
+  <h2>Assignment 3.4 - Guarding Routes</h2>
+
+  <br /> <br />
+
+  <!--to check if isLoggedIn value is true-->
+  <div class="row">
+
+    <!--column div-->
+    <div class="col-sm-6">
+      <!--shows image if user is logged in-->
+      <app-my-image></app-my-image>
+    </div>
+
+    <div class="col-sm-6">
+      <!-- shows details is user is logged in-->
+      <app-my-details></app-my-details>
+    </div>
+  </div>
+
+
+</div>
+
+
