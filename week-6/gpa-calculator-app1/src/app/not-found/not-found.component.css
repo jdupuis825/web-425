@@ -1,0 +1,18 @@
+/**Name: Jocelyn Dupuis*/
+/**File: base-layout.component.css*/
+/**Date: 11/21/2023*/
+/**Description: CSS for base-layout component*/
+
+/**styling for title p element*/
+mat-card-title p {
+  font-weight: bold;
+  font-size: 2em;
+  padding-bottom: 2%;
+  color: #720e9e;
+}
+
+/**styling for content p element*/
+mat-card-content p {
+  font-weight: bold;
+  font-size: 1.1em;
+}

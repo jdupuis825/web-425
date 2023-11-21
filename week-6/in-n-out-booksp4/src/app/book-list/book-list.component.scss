@@ -1,0 +1,15 @@
+// Name: Jocelyn Dupuis
+// File: book-list.component.scss
+// Date: 11/16/2023
+// Description: sassy file for book-list components
+
+//styling for link
+.a-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+//styling for link hover
+.a-link:hover {
+  text-decoration: underline;
+}

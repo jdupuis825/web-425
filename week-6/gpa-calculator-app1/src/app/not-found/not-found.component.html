@@ -1,0 +1,21 @@
+<!--Name: Jocelyn Dupuis-->
+<!--File: base-layout.component.html-->
+<!--Date: 11/21/2023-->
+<!--Description: html file for base layout component-->
+
+
+<div fxLayout="column">
+    <mat-card fxFlex style="margin-top: 10%; width: 50%; margin-left: 18%;" class="mat-elevation-z0">
+      <!--not found text and image-->
+      <mat-card-title style="text-align: center; padding-left: 20%;">
+          <p style="padding-left: 12%;">Oops!</p>
+          <img src="./assets/page-not-found.jpeg">
+      </mat-card-title>
+
+      <!--button to bring users back home-->
+      <mat-card-content style="text-align: center; padding-left: 30%;">
+          <p>You didn't break the internet, but we can't seem to find the page you're looking for.</p>
+          <button mat-raised-button color="accent" routerLink="/">Return home</button>
+      </mat-card-content>
+    </mat-card>
+</div>
