@@ -1,0 +1,19 @@
+/**Name: Jocelyn Dupuis*/
+/**File: base-layout.component.css*/
+/**Date: 11/21/2023*/
+/**Description: CSS for base-layout component*/
+
+/**styling for logo*/
+.logo {
+  margin-top: 5px;
+
+}
+
+/**styling for main container*/
+.main-container {
+  padding-top: 25px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
