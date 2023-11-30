@@ -1,0 +1,37 @@
+<!--Name: Jocelyn Dupuis-->
+<!--File: base-layout.component.html-->
+<!--Date: 11/30/2023-->
+<!--Description: html file for base layout component-->
+
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <!--displays logo-->
+        <div class="logo"></div>
+            <img src="./assets/gpa-calculator-app.png" height="80" />
+
+        <div style="width: 80%">
+            <div fxLayout="row wrap" fxLayoutAlign="end start">
+                <!--home button-->
+                <button mat-button routerLink="/">Home</button>
+                <!--sign out button-->
+                <button mat-button (click)="signOut()">Sign Out</button>
+            </div>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<br />
+
+<div fxLayout="row wrap">
+    <div fxFlex>
+        <!--displays assignment title-->
+      <mat-card class="main-container">
+        <mat-card-title>{{ assignment }}</mat-card-title>
+        <br /><br />
+        <!--router outlet-->
+        <mat-card-content>
+            <router-outlet></router-outlet>
+        </mat-card-content>
+      </mat-card>
+    </div>
+</div>
